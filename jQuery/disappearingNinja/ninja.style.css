@@ -1,0 +1,21 @@
+.container{
+    width: 600px;
+    height: auto;
+}
+
+img{
+    width: 120px;
+    height: 120px;
+    border: 1pt solid black;
+}
+
+h1{
+    display: block;
+    width: 60px;
+    height: 20px;
+    font-size: 12pt;
+    background-color: gray;
+    border: 1pt solid black;
+    text-align: center;
+    padding: 5px;
+}

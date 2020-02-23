@@ -1,0 +1,67 @@
+Microsoft Windows [Version 10.0.18362.476]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\System32>cd c:\users\nhend\desktop
+
+c:\Users\nhend\Desktop>mkdir test
+
+c:\Users\nhend\Desktop>cd test
+
+c:\Users\nhend\Desktop\test>type nul > index.html
+
+c:\Users\nhend\Desktop\test>type nul > styles.css
+
+c:\Users\nhend\Desktop\test>git init
+Initialized empty Git repository in c:/Users/nhend/Desktop/test/.git/
+
+c:\Users\nhend\Desktop\test>git add .
+
+c:\Users\nhend\Desktop\test>git commit -m "initial"
+[master (root-commit) 42ad264] initial
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 styles.css
+
+c:\Users\nhend\Desktop\test>git add index.html
+
+c:\Users\nhend\Desktop\test>git commit -m "updated html"
+[master dc74e17] updated html
+ 1 file changed, 1 insertion(+)
+
+c:\Users\nhend\Desktop\test>git add styles.css
+
+c:\Users\nhend\Desktop\test>git commit -m "updated css"
+[master af21cc3] updated css
+ 1 file changed, 4 insertions(+)
+
+c:\Users\nhend\Desktop\test>git log
+commit af21cc3f846aa7f08fc64015bdd23a762315e419 (HEAD -> master)
+Author: Nicole Hendry <nhendry05@gmail.com>
+Date:   Sat Nov 30 20:58:34 2019 -0800
+
+    updated css
+
+commit dc74e17c34ad5028a18f572aaebefcb12c8c9551
+Author: Nicole Hendry <nhendry05@gmail.com>
+Date:   Sat Nov 30 20:58:04 2019 -0800
+
+    updated html
+
+commit 42ad264bac177e7b4b1fc7d732edda1f4eca685e
+Author: Nicole Hendry <nhendry05@gmail.com>
+Date:   Sat Nov 30 20:50:36 2019 -0800
+
+    initial
+
+c:\Users\nhend\Desktop\test>git revert HEAD
+hint: Waiting for your editor to close the file...
+[master 0e1fdf3] Revert "updated css"
+ 1 file changed, 4 deletions(-)
+
+c:\Users\nhend\Desktop\test>git add styles.css
+
+c:\Users\nhend\Desktop\test>git commit -m "new css"
+[master d6e9fd0] new css
+ 1 file changed, 3 insertions(+)
+
+c:\Users\nhend\Desktop\test>

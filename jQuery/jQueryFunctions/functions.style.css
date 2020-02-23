@@ -1,0 +1,89 @@
+/*CSS reset*/
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    }
+
+
+.container{
+    width: auto;
+    height: auto;
+    background-color: gray;
+}
+.login {
+    background-color: rgb(54, 53, 53);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  .slideDown,
+  .slideUp,
+  .toggle,
+  .slideToggle,
+  .fadeIn,
+  .fadeOut,
+  .class,
+  .before,
+  .after,
+  .append,
+  .show,
+  .hello{
+        display: block;
+        text-align: center;
+  }
+
+  h2, h4{
+      background-color: rgb(54, 53, 53);
+      border: 1pt solid black;
+      color: black;
+      font-size: 16px;
+      text-align: center;
+      width: 100px;
+      padding: 10px 15px;
+      margin: 10px;
+      display: block;
+  }
+
+  p,
+  h3,
+  h5,
+  h6{
+      background-color: white;
+      border: 1pt solid black;
+      color: black;
+      font-size: 12px;
+      text-align: center;
+      width: 100px;
+      padding: 10px 15px;
+      margin: 10px;
+      display: block;
+  }
+  .fadeIn img,
+  .fadeOut img{
+      width: 100px;
+      height: 100px;
+  }
+  .newClass{
+      font-size: 30pt;
+      width: 200px;
+  }
+
+
+  h6{
+      display: inline-block;
+      
+
+  }

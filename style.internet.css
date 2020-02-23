@@ -1,0 +1,60 @@
+/*CSS reset*/
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    }
+
+/*MAKE SURE TO COMMENT THIS OUT!!!!!!*/
+    *{
+        outline: 1px dotted red;
+    }
+.container{
+    min-height: 500px;
+    min-width: 800px;
+}
+
+.header{
+    min-height: 100px;
+    width:805px;
+    font-family: verdana;
+}
+
+h1{
+    height: 60px;
+    font-size: 30pt;
+}
+
+h3{
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 20pt;
+
+}
+
+span{
+    color: blue;
+}
+
+.content{
+    height: 500px;
+    width: 805px;
+    background-color: rgb(243, 236, 236);
+    display: inline-block;
+}
+.side_bar{
+    height: 500px;
+    width: 200px;
+}
+
+.main_content{
+    height: 500px;
+    width: 600px;
+}

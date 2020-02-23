@@ -1,0 +1,17 @@
+**Nicole Hendry
+**PC user, opened in seperate webpage when running commands.
+
+
+C:\WINDOWS\System32>git help git
+
+C:\WINDOWS\System32>git help gittutorial
+
+C:\WINDOWS\System32>git help add
+
+C:\WINDOWS\System32>git help commit
+
+C:\WINDOWS\System32>git help push
+
+C:\WINDOWS\System32>git help remote
+
+C:\WINDOWS\System32>

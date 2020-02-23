@@ -1,0 +1,124 @@
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+$ mkdir test
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+$ cd test
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+$ touch index.html
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+$ touch style.css
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+$ touch commands.txt                                                                                                    
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+$ cp index.html index_2.html
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+$ cd ..
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+$ mkdir destination
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+$ cd test
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+$ mv index_2.html ../index_2.html
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+$ cd ..
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+$ mv index_2.html destination
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+$ cd test
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+$ dir
+commands.txt  index.html  style.css
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+$ cd ..
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+$ cd destination
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/destination
+$ dir
+index_2.html
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/destination
+$ cd ..
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+$ rm -rf destination
+
+nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+$ cat commands.txt
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+	$ mkdir test
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+	$ cd test
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+	$ touch index.html
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+	$ touch style.css
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+	$ touch commands.txt                                                                                                    
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+	$ cp index.html index_2.html
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+	$ cd ..
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+	$ mkdir destination
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+	$ cd test
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+	$ mv index_2.html ../index_2.html
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+	$ cd ..
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+	$ mv index_2.html destination
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+	$ cd test
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+	$ dir
+	commands.txt  index.html  style.css
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/test
+	$ cd ..
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+	$ cd destination
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/destination
+	$ dir
+	index_2.html
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop/destination
+	$ cd ..
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+	$ rm -rf destination
+
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+	$
+	nhend@DESKTOP-U87V1GA MINGW64 ~/Desktop
+	$

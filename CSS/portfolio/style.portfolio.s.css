@@ -1,0 +1,200 @@
+*{
+    outline: 1px dotted red;
+}
+.container {
+    width: 930px;
+    min-height: 800px;
+    background-color: rgb(58, 5, 58);
+    margin: 0px auto;
+}
+.header{
+    min-height: 40px;
+    background-color: lightgray;
+    width: 930px;
+}
+
+h1{
+    font-size: 20pt;
+    font-family: "comic sans ms";
+    vertical-align: center;
+    height: 40px;
+    width: 450px;
+    padding: 10px;
+    margin: 0px;
+    display: inline-block;
+}
+
+h2{
+    font-size: 11pt;
+    font-family: "comic sans ms";
+    vertical-align: center;
+    min-height: 10px;
+    width: 430px;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    display: inline-block;
+}
+
+h3{
+    background-color: gray;
+    margin: 0px;
+    padding: 8px;
+    color: lightgray;
+    font-family: verdana;
+    width: auto;
+}
+
+
+.top{
+    min-height: 250px;
+    margin: 0px;
+}
+
+.top_box-1{
+    height: 250px;
+    width: 380px;
+    background-color: lightgray;
+    display: inline-block;
+    margin: 25px 12px 25px 25px;
+    vertical-align: top;
+}
+
+.top_box-2{
+    height: 250px;
+    width: 470px;
+    background-color: gray;
+    display: inline-block;
+    margin: 25px 25px 25px 12px;
+    vertical-align: top;
+}
+
+.photo{
+    height: 240px;
+    width: 370px;
+    margin: 5px;
+}
+
+p{
+    width: auto;
+    padding: 8px;
+    margin: 0px;
+    background-color: lightgray;
+    font-family: arial, "trebuchet ms";
+    text-align: justify;
+    font-size: 10pt;
+}
+
+a{
+    width: auto;
+    display: block;
+    height: 45px;
+    background-color: lightgray;
+    font-family: arial, "trebuchet ms";
+    color: black;
+    padding: 8px;
+}
+
+.content{
+    min-height: 500px;
+    margin: 0px 25px 0px 0px;
+}
+
+.bot_box-1, .bot_box-2, .bot_box-3{
+    min-height: 400px;
+    width: 274px;
+    margin: 25px 0px 25px 25px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: lightgray;
+}
+
+h4,h5{
+    background-color: gray;
+    margin: 0px;
+    padding: 8px;
+    color: lightgray;
+    font-family: verdana;
+}
+
+h4{
+    font-size: 12pt;
+}
+
+h5{
+    font-size: 9pt;
+}
+
+.content_img{
+    width: 274px;
+    height: 125px;
+    margin: 0px;
+}
+
+.text_box-1, .text_box-2, .text_box-3{
+    width: 274px;
+    height: 155px;
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+}
+
+.icon_box-1, .icon_box-2, .icon_box-3{
+    width: 274px;
+    height: 150px;
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.button{
+    background-color: green;
+    background-position: center;
+    margin: 0 60px;
+    background-size: auto;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    font-family: verdana;
+    text-decoration: none;
+    font-size: 9pt;
+    font-weight: bolder;
+}
+
+.footer{
+    min-height: 80px;
+    background-color: lightgray;
+    width: 930px;
+    text-align: center;
+
+}
+
+.contact_icon{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    }
+}
+
+{
+    font-family: arial, "trebuchet ms";
+    font-size: 20pt;
+    display: block;
+    margin: 0px 400px;
+    
+}
+
+.contact_links{
+    display: inline;
+    font-size: 10pt;
+    vertical-align: center;
+}

@@ -1,0 +1,7 @@
+img{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 20px;
+    border: 1pt solid black;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hover</title>
+    <link rel="stylesheet" type = "text/css" href="hover.style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+            $(document).ready(function (){
+                $(".img1").hover(
+                    function(){
+                    $(".img1").attr("src", "blackclub.png");
+                    },
+                    function(){
+                        $(".img1").attr("src", "redclub.jpg");
+                    });
+                $(".img2").hover(
+                    function(){
+                    $(".img2").attr("src", "blackheart.png");
+                    },
+                    function(){
+                        $(".img2").attr("src", "redheart.png");
+                    });
+                $(".img3").hover(
+                    function(){
+                    $(".img3").attr("src", "blackspade.png");
+                    },
+                    function(){
+                        $(".img3").attr("src", "redspade.png");
+                    });
+                $(".img4").hover(
+                    function(){
+                    $(".img4").attr("src", "blackdiamond.jpg");
+                    },
+                    function(){
+                        $(".img4").attr("src", "reddiamond.jpeg");
+                    });
+            });
+    </script>
+
+</head>
+<body>
+    <img class = "img1" src = "redclub.jpg" data-alt-src = "blackclub.png">
+    <img class = "img2" src = "redheart.png" data-alt-src = "blackheart.png">
+    <img class = "img3" src = "redspade.png" data-alt-src = "backspade.png">
+    <img class = "img4" src = "reddiamond.jpeg" data-alt-src = "blackdiamond.jpg">
+
+</body>
+</html>

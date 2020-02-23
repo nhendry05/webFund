@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+    #container{
+        background-color: navy;
+        width: 970px;
+        margin: 0px auto;
+        padding: 1px 0px;
+
+
+    }
+    #header{
+        background-color: red;
+        width: 950px;
+        height: 75px;
+        margin: 10px;
+        border-radius: 20px;
+        text-align: left;
+        vertical-align: middle;
+        line-height: 75px;
+    }
+    h1{
+        color: rgb(201, 209, 245);
+        margin: 10px;
+    }
+    #menu{
+        background-color: rgb(81, 144, 163);
+        width: 175px;
+        height: 200px;
+        margin: 20px 20px 20px 10px;
+        padding: 10px 0px 0px 0px;
+        border-radius: 20px;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 12px;
+    }
+    a{
+        color:  rgb(146, 233, 233);
+    }
+    #content{
+        background-color: black;
+        width: 750px;
+        height: 500px;
+        display: inline-block;
+        margin: 20px 10px 5px 0px;
+        border-radius: 20px;
+
+    }
+    h2{
+        color:  rgb(201, 209, 245);
+        margin: 25px 20px 10px 20px;
+    }
+    p{
+        color:  rgb(201, 209, 245);
+        margin: 25px 20px 20px 20px;
+        display: inline;
+        font-size: 9pt;
+        text-indent: 0px;
+    }
+    ul{
+        color:  rgb(80, 201, 201);
+        margin: 0px 20px 20px 35px;
+        
+    }
+    link{
+        color:  rgb(80, 201, 201);
+    }
+    span{
+        color: rgb(127, 129, 243);
+    }
+    #footer{
+        background-color: gray;
+        width: 950px;
+        height: 50px;
+        margin: 10px;
+        border-radius: 20px;
+        text-align: left;
+        vertical-align: middle;
+        line-height: 50px;
+    }

@@ -1,0 +1,254 @@
+/*CSS reset*/
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    }
+
+
+.container{
+    min-height: 500px;
+    min-width: 800px;
+    background-color:  rgb(243, 236, 236);
+}
+
+.header{
+    min-height: 100px;
+    width:805px;
+    font-family: verdana;
+    background-color: white;
+}
+
+.header_photo{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    vertical-align: bottom;
+    
+}
+
+h1{
+    height: 60px;
+    font-size: 30pt;
+    display: inline-block;
+    vertical-align: bottom;
+    
+}
+
+h2{
+    height: 40px;
+    background-color: rgba(30, 87, 194, 0.87);
+    color: white;
+    font-size: 20pt;
+    padding: 0px 20px;
+
+}
+
+span{
+    color: rgba(30, 87, 194, 0.87);
+}
+
+.side_bar{
+    height: 500px;
+    width: 180px;
+    background-color: rgb(243, 236, 236);
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.side_bar h4{
+    font-size: 12pt;
+    margin: 20px 0px 0px 5px;
+}
+
+.side_bar h4 span{
+    color: red;
+    
+}
+
+.side_bar h5{
+    font-size: 10pt;
+    margin: 10px 0px 0px 5px;
+}
+.side_bar h5 span{
+    color:rgba(30, 87, 194, 0.87);
+
+}
+
+.link1, .link2{
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 10pt;
+    padding: 5px;
+    border-radius: 5pt;
+    display: block;
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+.link1{
+    background-color: rgba(30, 87, 194, 0.87);
+}
+
+.link2{
+    background-color: orange;
+}
+
+.ad{
+    width: 180px;
+    height: 250px;
+    margin: 10px 0px;
+    display: inline-block;
+    background-image: url("ad_background.png")
+}
+h6{
+    color: rgb(201, 197, 197);
+    text-align: center;
+    font-size: 16pt;
+    display:inline-block;
+    margin: 20px 0px 0px 0px;
+}
+.ninja{
+    width: 80px;
+    height: 120px;
+    margin: 0px 50px;
+}
+
+.link3{
+    background-color: lightskyblue;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 10pt;
+    padding: 5px;
+    text-align: center;
+    margin: 0px 25px;
+    display: block;
+}
+
+.content{
+    height: 500px;
+    width: 595px;
+    background-color: rgb(243, 236, 236);
+    display: inline-block;
+    margin: 0px 0px 0px 25px;
+}
+
+.content_header{
+    height: 65px;
+    vertical-align: top;
+    border-bottom: 1px solid gray;
+}
+
+.home{
+    width:20px;
+    height:20px;
+    display: inline-block;
+}
+
+h3{
+    color: rgba(30, 87, 194, 0.87);
+    font-size: 12pt;
+    font-weight: bold;
+
+}
+.content_header h3{
+    display: inline-block;
+    width: 350px;
+}
+
+.contact{
+    min-width: 100px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+.phone{
+    width:40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: center;
+}
+
+p{
+    font-size: 8pt;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+
+}
+
+.contact span{
+    color: rgba(30, 87, 194, 0.87);
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.content_main p{
+    font-size: 10pt;
+    margin: 2px 0px 2px 0px;
+}
+ul, ol{
+    margin: 2px 0px 2px 30px ;
+    font-size: 10pt;
+    
+}
+
+.blue{
+    color: lightskyblue;
+    font-weight: bold;
+
+}
+
+.bold{
+    font-weight: bold;
+    color: black;
+}
+
+.client_server{
+    width: 200px;
+    height: 80px;
+    margin: 10px 0px 5px 180px;
+}
+
+.big3{
+    border: 2px solid rgba(30, 87, 194, 0.87);
+    border-bottom: none;
+    min-height: 100px;
+    margin: 10px 0px 0px 0px;
+}
+
+.three{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.three_text{
+    height: 100px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.three_text h3{
+    width: 400px;
+    margin: 5px 0px 5px 0px;
+}
+
+.three_text p{
+    width: 400px;
+    text-align: left;
+}
+
+.ital{
+    text-decoration: italic;
+}

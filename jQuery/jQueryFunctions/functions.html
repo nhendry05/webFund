@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type = "text/css" href="functions.style.css">
+
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>"></script>
+
+    <script>
+        $(document).ready(function(){
+            $( ".login" ).click(function() {
+                $(".login").text("Log Out");
+            });
+            
+            $(".slideDown p").hide(function() {
+            $(".slideDown h2").click(function(){
+                $(".slideDown p").slideDown("slow");
+                });
+            });
+
+            $(".slideUp h2").click(function(){
+                $(".slideUp p").slideUp("slow");
+            });
+
+            $(".toggle h2").click(function(){
+                $(".toggle h6").toggle("slow");
+            });
+            $(".slideToggle h2").click(function(){
+                $(".slideToggle p").slideToggle("slow");
+            });
+
+            $(".fadeIn img").hide(function() {
+                $(".fadeIn h2").click(function(){
+                    $(".fadeIn img").fadeIn("slow");
+                });
+            });
+
+            $(".fadeOut h2").click(function(){
+                $(".fadeOut img").fadeOut("slow");
+            });
+
+            $(".class").click(function() {
+                $(".class h3").addClass("newClass");
+            });
+
+            $(".before").click(function() {
+                $(".before h3").before("Thank you for your submission");
+            });
+
+            $(".after").click(function() {
+                $(".after h3").after("xxx-xxx-xxxx");
+            });
+
+            $(".append").click(function() {
+                $(".append h3").append("Name");
+            });
+
+            $(".show h4").hide(function() {
+                $(".show").click(function() {
+                    $(".show h4").show("slow");
+                });
+            });
+
+            $(".hello").click(function () {
+                $(".hello h3").html("<b>Goodbye!!!</b>");
+            });
+
+        });
+        </script>
+</head>
+<body>
+    <div class = "container">
+        <div class = "login"><h1>Log In</h1></div>
+        <div class = "main">
+            <div class = "top">
+
+            </div>
+            <div class = "slideDown">
+                <h2>Click for More Info</h2>
+                <p>Here's the info you asked for</p>
+            </div>
+            <div class = "slideUp">
+                <h2>Click to Hide Contact Info</h2>
+                <p>Name: Nicole</p>
+                <p>Phone: xxx-xxx-xxxx</p>
+                <p>Email: xxxxxx@gmail.com</p>
+            </div>
+            <div class = "toggle">
+                <h2>Navigation Bar</h2>
+                <h6>Home</h6>
+                <h6>Main</h6>
+                <h6>Contact</h6>
+            </div>
+            <div class = "slideToggle">
+                <h2>Side Bar</h2>
+                <p>Home</p>
+                <p>Main</p>
+                <p>Contact</p>
+            </div>
+            <div class = "fadeIn">
+                <h2>Click for photo</h>
+                <img src = "heart.png" alt = "heart">
+            </div>
+            <div class = "fadeOut">
+                <h2>Click to hide photo</h>
+                <img src = "heart.png" alt = "heart">
+            </div>
+            <div class = "class">
+                <h3>Having a hard time reading? Click to increase font size</h3>
+            </div>
+            <div class = "before">
+                    <h3>Submit</h3>
+            </div>
+            <div class = "after">
+                <h3>Click for Contact Number</h3>
+            </div>
+            <div class = "append">
+                <h3>Hello, </h3>
+            </div>
+            <div class = "show">
+                <h3>Click to Show Account Info</h3>
+                <h4>Name</h4>
+                <h4>User name</h4>
+                <h4>Account Number: xxx-xxxx</h4>
+            
+            </div>
+            <div class = "hello">
+                <h3>Hello!</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

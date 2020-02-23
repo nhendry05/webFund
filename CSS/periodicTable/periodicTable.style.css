@@ -1,0 +1,148 @@
+/*CSS reset*/
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    }
+
+
+/*COMMENT OUT
+*{
+    outline: 1px dotted red;
+}
+*/
+.container{
+    width: 842px;
+    height: 440px;
+    background-color: lightgray;
+    font-family: "verdana";
+}
+
+.header{
+    width: auto;
+    height: 42px;
+}
+
+.header h1,
+.main h1{
+    font-size: 7pt;
+    color: red;
+    width: 30px;
+    height: 30px;
+    
+
+
+}
+.header h1{
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 1px 0px 12.5px;
+}
+.main{
+    width: auto;
+    height: 300px;
+}
+.main h1{
+   padding: 8px 0px 4px 8px;
+}
+
+.side{
+    display: inline-block;
+    vertical-align: top;
+}
+
+h2{
+    font-size: 5pt;
+    color: blue;
+    padding: 2px;
+}
+h3{
+    font-size: 9pt;
+    color: blue;
+}
+.middle{
+    display: inline-block;
+}
+.blue,
+.pink,
+.yellow,
+.green{
+    width: 39px;
+    height: 39px;
+    text-align: center;
+    margin: 0px 2px 2px 0px;
+    font-weight: bold;
+    border: .4pt solid gray;
+}
+.blue{
+    background-color: skyblue;
+}
+.pink{
+    background-color: pink;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5,
+.col_6,
+.col_7,
+.col_8,
+.col_9,
+.col_10,
+.col_11,
+.col_12,
+.col_13,
+.col_14,
+.col_15,
+.col_16,
+.col_17,
+.col_18{
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0px -5px 0px 0px;
+}
+.col_3{
+    margin: 0px -5px 0px 13px;
+}
+.bottom{
+    width: auto;
+    height: 110px;
+    margin: 10px 0px;
+}
+
+.bottom h1{
+    font-size: 7pt;
+    color: red;
+    width: 71px;
+    height: 30px;
+    display: inline-block;
+    margin: 0px 0px 0px 40px;
+}
+.bottom h4{
+    font-size: 7pt;
+    color: red;
+    width: 29px;
+    height: 30px;
+    display: inline-block;
+    text-align: right;
+    margin: 0pc 0px 0px 0px;
+}
+
+.green{
+    display: inline-block;
+    background-color: rgb(19, 212, 19);
+    vertical-align: top;
+    margin: 0px 1px 1px -4px;
+}
